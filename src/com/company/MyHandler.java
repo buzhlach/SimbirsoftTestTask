@@ -38,7 +38,7 @@ public class MyHandler {
                         (!subInputLine.contains("/style"))){
                     stringBuffer.append(subInputLine+"\n");
                     subInputLine=subInputLine.substring(1,subInputLine.length()-1);
-                    for (String word:subInputLine.split("[ ,.!?\";:\\]\\[()\n\r\t+\\-=*/]+")){
+                    for (String word:subInputLine.split("[ ,.!?\";:\\]\\[()\n\r\t+=*/]+")){
                         if (!word.equals("")) {
                             int count = (result.get(word.toUpperCase()) == null ? 0 : result.get(word.toUpperCase()).intValue());
                             result.put(word.toUpperCase(), count + 1);
