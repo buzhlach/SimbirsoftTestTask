@@ -1,7 +1,7 @@
 # SimbirsoftTestTask
 --------------------
 
-## This application was created to perform a test task for the [Simbirsoft](https://www.simbirsoft.com/) workshop "Java and C#" 08.04.2021
+## This application was created to perform a test task for the [Simbirsoft](https://www.simbirsoft.com/) workshop "Java" 17.05.2021
 This application allows you to download an arbitrary HTML page via an HTTP request to your computer's hard drive and outputs statistics on the number of unique words to the console.
 
 ## Getting start
